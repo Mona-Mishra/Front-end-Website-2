@@ -37,9 +37,6 @@ body{
     margin: 12px;
     text-align: right;
     margin-right: 10px;
-    /* padding: 10px;
-    width: 70%;
-    border: 1px solid #ccc; */
 }
 .header div a:last-child input{
     padding: 10px;
@@ -47,10 +44,6 @@ body{
     border: 1px solid #ccc;
 }
 .container{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5px;
-    padding: 1px; */
     display : flex;
     flex-direction: row;
     max-height: 90vh;
@@ -59,25 +52,17 @@ body{
 }
 
 .menu-bar{
-    /* display: grid; */
-    /* grid-template-columns: 1fr; */
-    /* gap: 0px; */
-    /* height: 30px; */
-    /* width: 70%; */
     width : 220px;
     display : flex;
     justify-content: space-between;
     flex-direction: column;
     height : inherit;
     border: 1px;
-    /* background-color: rgb(85, 172, 141); */
     background: rgba(184, 101, 178, 0.396);
 }
 .menu-bar div div{
     display: flex;
     align-items: center;
-    /* border: 1px solid black;
-    border-radius: 10px; */
     display: block;
     row-gap: 5px;
     justify-content: space-between;
@@ -97,10 +82,6 @@ body{
     margin-top: 470px;
 }
 .content{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    padding: 10px; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -112,7 +93,6 @@ body{
     height: 100px;
     width: 30%;
     border-radius: 10px;
-    /* padding: 5px; */
     font-size: larger;
     font-weight: bold;
     text-align: center;
@@ -123,7 +103,6 @@ body{
     height: 100px;
     width: 30%;
     border-radius: 10px;
-    /* padding: 10px; */
     font-size: larger;
     font-weight: bold;
     text-align: center;
@@ -134,7 +113,6 @@ body{
     height: 100px;
     width: 30%;
     border-radius: 10px;
-    /* padding: 10px; */
     font-size: larger;
     font-weight: bold;
     text-align: center;
@@ -175,8 +153,6 @@ body{
     margin-top: 5px;
     width: 100%;
     margin-top: 40px;
-  /* margin-left: 20px; */
-  /* padding: 20px; */
     table, th,td{
     border: 1px solid rgba(99, 240, 71, 0.83);
     border-collapse: collapse;
@@ -186,8 +162,6 @@ body{
 .table2{
     margin-top: 10px;
     width: 100%;
-    /* margin-left: 20px; */
-  /* padding: 20px; */
     table, th,td{
         border: 1px solid rgb(109, 167, 230);
         border-collapse: collapse;
@@ -201,13 +175,8 @@ th,td{
     height: 20px;
     border: 1px solid black;
     border-collapse: collapse;
-    /* margin: 10px 0; */
   }
 .last{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    padding: 10px; */
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -229,9 +198,6 @@ th,td{
     margin-top: 15px;
 }
 .last-row{
-    /* display: flex;
-    justify-content: space-evenly;
-    flex-direction: row; */
     border: 1px;
     background-color: rgba(222, 200, 76, 0.286);
     height: 100px;
@@ -278,9 +244,6 @@ form{
     margin-left: 15px;
   }
 .right{
-    /* margin-top: 40px; */
-  /* margin-left: 20px; */
-  /* padding: 20px; */
   width: 100%;
   overflow-y: scroll;
 }
@@ -294,7 +257,6 @@ form{
     border: 1px solid black;
     margin: 0px;
     height: 60px;
-    /* padding-left: 10px; */
     border-radius: 10px;
     color: white;
     background-color: #87db34;
@@ -303,7 +265,6 @@ form{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
-    /* margin: 40px; */
   }
   
   .img {
