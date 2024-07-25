@@ -5,8 +5,6 @@ function editName() {
     if (newName) {
       document.getElementById('name').value = newName;
     }
-    // let ele = document.getElementById('name');
-    // ele.removeAttribute("readOnly");
   }
   function editEmail() {
     let currentName = document.getElementById('email').value;
